@@ -1,0 +1,51 @@
+{
+    "parameters": {
+        "location_x": "50%",
+        "location_y": "50%",
+        "width": 528,
+        "height": 136
+    },
+    "items": [[
+        [{"t": "column", "k": "column_1", "xx": true, "xy": true}, [
+            [
+                [{"t": "tab_group", "k": "tab_group_1", "xx": true, "xy": true}, [
+                    [
+                        [{"t": "tab", "k": "tab_1", "v": " Tab 1 "},[
+                            [
+                                [{"t": "column", "k": "column_11", "p":  [[10, 10], [10, 10]]}, [
+                                    [
+                                        [{"t": "label", "k": "label_1", "v": "label_1", "s": [8, 1]}],
+                                        [{"t": "in_line", "k": "in_line_1", "v": ""}],
+                                        [{"t": "button", "k": "button_1", "v": "button_1"}]
+                                    ]
+                                ]]
+                            ]
+                        ]],
+                        [{"t": "tab", "k": "tab_2", "v": " Tab 2 "},[
+                            [
+                                [{"t": "column", "k": "column_12", "p":  [[10, 10], [10, 10]]}, [
+                                    [
+                                        [{"t": "label", "k": "label_2", "v": "label_2", "s": [8, 1]}],
+                                        [{"t": "in_line", "k": "in_line_2", "v": ""}],
+                                        [{"t": "button", "k": "button_2", "v": "button_2"}]
+                                    ]
+                                ]]
+                            ]
+                        ]],
+                        [{"t": "tab", "k": "tab_3", "v": " Tab 3 "},[
+                            [
+                                [{"t": "column", "k": "column_13", "p":  [[10, 10], [10, 10]]}, [
+                                    [
+                                        [{"t": "label", "k": "label_3", "v": "label_3", "s": [8, 1]}],
+                                        [{"t": "in_line", "k": "in_line_3", "v": ""}],
+                                        [{"t": "button", "k": "button_3", "v": "button_3"}]
+                                    ]
+                                ]]
+                            ]
+                        ]]
+                    ]
+                ]]
+            ]
+        ]]
+    ]]
+}

@@ -1,0 +1,28 @@
+{
+    "parameters": {
+        "location_x": "50%",
+        "location_y": "50%",
+        "width": 516,
+        "height": 133
+    },
+    "items": [[
+        [{"t": "column", "k": "column_1", "p": [[0, 0], [0, 5]], "sc": false, "scvo": false}, [
+            [
+                [{"t": "frame", "k": "frame_1", "v": " Frame 1 "}, [
+                    [
+                        [{"t": "column", "k": "column_11", "p": [[5, 5], [0, 10]] }, [
+                            [
+                                [{"t": "label", "k": "label_1", "v": "label_1", "s": [14, 1]}],
+                                [{"t": "in_line", "k": "in_line_1", "v": "in_line_1", "s": [20, 1]}],
+                                [{"t": "button", "k": "button_1", "v": "button_1", "s": [16, 1]}]
+                            ],
+                            [
+                                [{"t": "in_line", "k": "in_line_2", "v": "in_line_2", "s": [50, 1]}]
+                            ]
+                        ]]
+                    ]
+                ]]
+            ]
+        ]]
+    ]]
+}

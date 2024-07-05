@@ -1,0 +1,52 @@
+{
+    "parameters": {
+        "location_x_equal": {
+            "lvl": "usr",
+            "model": "demo_e",
+            "wid": "0"
+        },
+        "location_y": 0,
+        "width_equal": {
+            "lvl": "usr",
+            "model": "demo_e",
+            "wid": "0"
+        },
+        "height_until":  {
+            "lvl": "usr",
+            "model": "demo_e",
+            "wid": "0"
+        }
+    },
+    "items": [[
+        [{"t": "column", "k": "column_1", "xx": true, "xy": true}, [
+            [
+                [{"t": "frame", "k": "frame_1", "v": " Demo E : Fenêtre 2 ", "ae": "left"}, [
+                    [
+                        [{"t": "label", "k": "label_1", "v": "", "s":  [0, 1], "p":[[20, 5], [10, 0]]}]
+                    ],
+                    [
+                        [{"t": "label", "k": "label_2", "v": "", "s":  [0, 1], "p":[[40, 5], [0, 0]]}]
+                    ],
+                    [
+                        [{"t": "label", "k": "label_3", "v": "", "s":  [0, 1], "p":[[40, 5], [0, 0]]}]
+                    ],
+                    [
+                        [{"t": "label", "k": "label_4", "v": "", "s":  [0, 1], "p":[[40, 5], [0, 0]]}]
+                    ],
+                    [
+                        [{"t": "label", "k": "label_5", "v": "", "s":  [0, 1], "p":[[20, 5], [10, 0]]}]
+                    ],
+                    [
+                        [{"t": "label", "k": "label_6", "v": "", "s":  [0, 1], "p":[[40, 5], [0, 0]]}]
+                    ],
+                    [
+                        [{"t": "label", "k": "label_7", "v": "", "s":  [0, 1], "p":[[40, 5], [0, 0]]}]
+                    ],
+                    [
+                        [{"t": "label", "k": "label_8", "v": "", "s":  [0, 1], "p":[[40, 5], [0, 0]]}]
+                    ]
+                ]]
+            ]
+        ]]
+    ]]
+}
