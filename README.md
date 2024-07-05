@@ -106,9 +106,14 @@ conda install -c conda-forge nuitka
 python -m nuitka --onefile --enable-plugin=tk-inter demo.py
 ```
 
+<br/>
 
 ---
-## 👉 Demo A :
+
+#### Pour accéder à la partie suivante vous devez vous rendre au depot : [archgui-demo](https://github.com/Seblefdev/archgui-demo)
+
+---
+### 👉 Demo A :
 #### Manipulation des inputs inline text et button.
 
 | Script          | Model                     | Events                 |
@@ -119,8 +124,10 @@ python -m nuitka --onefile --enable-plugin=tk-inter demo.py
 
 
 
+<br/>
+
 ---
-## 👉 Demo B :
+### 👉 Demo B :
 #### Création et manipulation d’un graphique via `MatPlotLib`.
 
 | Script          | Model                     | Events                 |
@@ -131,8 +138,10 @@ python -m nuitka --onefile --enable-plugin=tk-inter demo.py
 
 
 
+<br/>
+
 ---
-## 👉 Demo C :
+### 👉 Demo C :
 #### Manipulation d’une barre de progression.
 
 | Script          | Model                     | Events                 |
@@ -143,8 +152,10 @@ python -m nuitka --onefile --enable-plugin=tk-inter demo.py
 
 
 
+<br/>
+
 ---
-## 👉 Demo D :
+### 👉 Demo D :
 #### Manipulation d'onglet.
 
 | Script          | Model                     | Events                 |
@@ -155,8 +166,10 @@ python -m nuitka --onefile --enable-plugin=tk-inter demo.py
 
 
 
+<br/>
+
 ---
-## 👉 Demo E :
+### 👉 Demo E :
 #### Manipulation de plusieurs fenêtres positionnement et dimensionnement relatif.
 
 | Script                                                                       | Model                                                                                                      | Events                                                                                               |
@@ -172,4 +185,3 @@ python -m nuitka --onefile --enable-plugin=tk-inter demo.py
 | `onclick: button_8`                                                                   | [`ag_windows/demo_e_8.json`](https://github.com/Seblefdev/archgui-demo/blob/main/ag_windows/demo_e_8.json) | [`ag_events/demo_e_8.py`](https://github.com/Seblefdev/archgui-demo/blob/main/ag_events/demo_e_8.py) |
 
 [![Image](https://github.com/Seblefdev/archgui-demo/blob/main/demo_img/demo_e_0.png?raw=true)](https://github.com/Seblefdev/archgui-demo/blob/main/demo_img/demo_e_1.png?raw=true)
-
