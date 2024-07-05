@@ -106,11 +106,69 @@ conda install -c conda-forge nuitka
 python -m nuitka --onefile --enable-plugin=tk-inter demo.py
 ```
 
-## 🧐 Démonstration :
-#### Demo A (demo_a.py):
-<a href="demo_img/demo_1.png"><img src="demo_img/demo_1.png" align="left" height="100" width="100" ></a>
 
-#### Demo B (demo_b.py):
-#### Demo C (demo_c.py):
-#### Demo D (demo_d.py):
-#### Demo E (demo_e.py):
+---
+## 👉 Demo A :
+#### Manipulation des inputs inline text et button.
+
+| Script          | Model                     | Events                 |
+|-----------------|---------------------------|------------------------|
+| [`demo_a.py`](https://github.com/Seblefdev/archgui-demo/blob/main/demo_a.py) | [`ag_windows/demo_a.json`](https://github.com/Seblefdev/archgui-demo/blob/main/ag_windows/demo_a.json)  | [`ag_events/demo_a.py`](https://github.com/Seblefdev/archgui-demo/blob/main/ag_events/demo_a.py)  |
+
+![Image](https://github.com/Seblefdev/archgui-demo/blob/main/demo_img/demo_a.png?raw=true)
+
+
+
+---
+## 👉 Demo B:
+#### Création et manipulation d’un graphique via `MatPlotLib`.
+
+| Script          | Model                     | Events                 |
+|-----------------|---------------------------|------------------------|
+| [`demo_b.py`](https://github.com/Seblefdev/archgui-demo/blob/main/demo_b.py) | [`ag_windows/demo_b.json`](https://github.com/Seblefdev/archgui-demo/blob/main/ag_windows/demo_b.json)  | [`ag_events/demo_b.py`](https://github.com/Seblefdev/archgui-demo/blob/main/ag_events/demo_b.py)  |
+
+![Image](https://github.com/Seblefdev/archgui-demo/blob/main/demo_img/demo_b.png?raw=true)
+
+
+
+---
+## 👉 Demo C:
+#### Manipulation d’une barre de progression.
+
+| Script          | Model                     | Events                 |
+|-----------------|---------------------------|------------------------|
+| [`demo_c.py`](https://github.com/Seblefdev/archgui-demo/blob/main/demo_c.py) | [`ag_windows/demo_c.json`](https://github.com/Seblefdev/archgui-demo/blob/main/ag_windows/demo_c.json)  | [`ag_events/demo_c.py`](https://github.com/Seblefdev/archgui-demo/blob/main/ag_events/demo_c.py)  |
+
+![Image](https://github.com/Seblefdev/archgui-demo/blob/main/demo_img/demo_c.png?raw=true)
+
+
+
+---
+## 👉 Demo D:
+#### Manipulation d'onglet.
+
+| Script          | Model                     | Events                 |
+|-----------------|---------------------------|------------------------|
+| [`demo_d.py`](https://github.com/Seblefdev/archgui-demo/blob/main/demo_d.py) | [`ag_windows/demo_d.json`](https://github.com/Seblefdev/archgui-demo/blob/main/ag_windows/demo_d.json)  | [`ag_events/demo_d.py`](https://github.com/Seblefdev/archgui-demo/blob/main/ag_events/demo_d.py)  |
+
+![Image](https://github.com/Seblefdev/archgui-demo/blob/main/demo_img/demo_d.png?raw=true)
+
+
+
+---
+## 👉 Demo E:
+#### Manipulation de plusieurs fenêtres positionnement et dimensionnement relatif.
+
+| Script                                                                       | Model                                                                                                      | Events                                                                                               |
+|------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
+| [`demo_e.py`](https://github.com/Seblefdev/archgui-demo/blob/main/demo_e.py) | [`ag_windows/demo_e.json`](https://github.com/Seblefdev/archgui-demo/blob/main/ag_windows/demo_e.json)     | [`ag_events/demo_e.py`](https://github.com/Seblefdev/archgui-demo/blob/main/ag_events/demo_e.py)     |
+| `onclick: button_1`                                                          | [`ag_windows/demo_e_1.json`](https://github.com/Seblefdev/archgui-demo/blob/main/ag_windows/demo_e_1.json) | [`ag_events/demo_e_1.py`](https://github.com/Seblefdev/archgui-demo/blob/main/ag_events/demo_e_1.py) |
+| `onclick: button_2`                                                                   | [`ag_windows/demo_e_2.json`](https://github.com/Seblefdev/archgui-demo/blob/main/ag_windows/demo_e_2.json) | [`ag_events/demo_e_2.py`](https://github.com/Seblefdev/archgui-demo/blob/main/ag_events/demo_e_2.py) |
+| `onclick: button_3`                                                                   | [`ag_windows/demo_e_3.json`](https://github.com/Seblefdev/archgui-demo/blob/main/ag_windows/demo_e_3.json) | [`ag_events/demo_e_3.py`](https://github.com/Seblefdev/archgui-demo/blob/main/ag_events/demo_e_3.py) |
+| `onclick: button_4`                                                                   | [`ag_windows/demo_e_4.json`](https://github.com/Seblefdev/archgui-demo/blob/main/ag_windows/demo_e_4.json) | [`ag_events/demo_e_4.py`](https://github.com/Seblefdev/archgui-demo/blob/main/ag_events/demo_e_4.py) |
+| `onclick: button_5`                                                                   | [`ag_windows/demo_e_5.json`](https://github.com/Seblefdev/archgui-demo/blob/main/ag_windows/demo_e_5.json) | [`ag_events/demo_e_5.py`](https://github.com/Seblefdev/archgui-demo/blob/main/ag_events/demo_e_5.py) |
+| `onclick: button_6`                                                                   | [`ag_windows/demo_e_6.json`](https://github.com/Seblefdev/archgui-demo/blob/main/ag_windows/demo_e_6.json) | [`ag_events/demo_e_6.py`](https://github.com/Seblefdev/archgui-demo/blob/main/ag_events/demo_e_6.py) |
+| `onclick: button_7`                                                                   | [`ag_windows/demo_e_7.json`](https://github.com/Seblefdev/archgui-demo/blob/main/ag_windows/demo_e_7.json) | [`ag_events/demo_e_7.py`](https://github.com/Seblefdev/archgui-demo/blob/main/ag_events/demo_e_7.py) |
+| `onclick: button_8`                                                                   | [`ag_windows/demo_e_8.json`](https://github.com/Seblefdev/archgui-demo/blob/main/ag_windows/demo_e_8.json) | [`ag_events/demo_e_8.py`](https://github.com/Seblefdev/archgui-demo/blob/main/ag_events/demo_e_8.py) |
+
+[![Image](https://github.com/Seblefdev/archgui-demo/blob/main/demo_img/demo_e_0.png?raw=true)](https://github.com/Seblefdev/archgui-demo/blob/main/demo_img/demo_e_1.png?raw=true)
