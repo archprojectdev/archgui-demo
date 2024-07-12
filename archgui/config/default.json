@@ -1,0 +1,191 @@
+{
+    "general": {
+        "theme": "DarkBlue14",
+        "font": ["Courier", 12]
+    },
+    "column": {
+        "k": null,
+        "p": [[5, 5], [0, 10]],
+        "s": [null, null],
+        "av": "top",
+        "ae": "center",
+        "sc": false,
+        "scvo": false,
+        "xx": null,
+        "xy": null
+    },
+    "tab_group": {
+        "k": null,
+        "p": [[5, 5], [15, 10]],
+        "s": [null, null],
+        "f": ["Courier", 12],
+        "tl": "topleft",
+        "xx": null,
+        "xy": null
+    },
+    "tab": {
+        "v": null,
+        "k": null,
+        "p": [[5, 5], [10, 10]],
+        "d": false,
+        "ae": "center",
+        "xx": null,
+        "xy": null
+    },
+    "frame": {
+        "v": null,
+        "k": null,
+        "p": [[5, 5], [5, 5]],
+        "s": [null, null],
+        "f": ["Courier", 12],
+        "av": "top",
+        "ae": "center",
+        "xx": true,
+        "xy": true
+    },
+    "canvas": {
+        "v": null,
+        "k": null,
+        "p": [[5, 5], [5, 5]],
+        "s": [null, null],
+        "xx": true,
+        "xy": true
+    },
+    "label": {
+        "v": null,
+        "k": null,
+        "p": [[5, 0], [5, 5]],
+        "s": [6, 1],
+        "d": false,
+        "f": ["Courier", 12],
+        "xx": null,
+        "xy": null
+    },
+    "in_line": {
+        "v": null,
+        "k": null,
+        "p": [[5, 0], [5, 5]],
+        "s": [20, 1],
+        "d": false,
+        "f": ["Courier", 13],
+        "ro": false,
+        "xx": null,
+        "xy": null
+    },
+    "in_lines": {
+        "v": "",
+        "k": null,
+        "p": [[10, 10], [10, 10]],
+        "s": [null, null],
+        "f": ["Courier", 10],
+        "d": true,
+        "ns": true,
+        "xx": null,
+        "xy": null,
+        "tw": true,
+        "th": true
+    },
+    "in_radio": {
+        "k": null,
+        "g": null,
+        "d": false,
+        "p": [[5, 0], [5, 5]],
+        "s": [30, 3],
+        "f": ["Courier", 10],
+        "df": false,
+        "xx": null,
+        "xy": null
+    },
+    "in_checkbox": {
+        "k": null,
+        "d": false,
+        "p": [[5, 0], [5, 5]],
+        "s": [30, 3],
+        "f": ["Courier", 10],
+        "df": false,
+        "xx": null,
+        "xy": null
+    },
+    "in_combo": {
+        "k": null,
+        "v": null,
+        "d": false,
+        "p": [[5, 0], [5, 5]],
+        "s": [30, 3],
+        "dv": null,
+        "xx": null,
+        "xy": null
+    },
+    "button": {
+        "k": null,
+        "v": null,
+        "d": false,
+        "p": [[5, 5], [5, 5]],
+        "s": [10, 1],
+        "f": ["Courier", 9]
+    },
+    "button_file": {
+        "k": null,
+        "v": null,
+        "d": false,
+        "p": [[5, 5], [5, 5]],
+        "s": [10, 1],
+        "f": ["Courier", 9],
+        "tg": null
+    },
+    "button_files": {
+        "k": null,
+        "v": null,
+        "d": false,
+        "p": [[5, 5], [5, 5]],
+        "s": [10, 1],
+        "f": ["Courier", 9],
+        "tg": null
+    },
+    "button_save": {
+        "k": null,
+        "v": null,
+        "d": false,
+        "p": [[5, 5], [5, 5]],
+        "s": [10, 1],
+        "f": ["Courier", 9],
+        "tg": null
+    },
+    "button_folder": {
+        "k": null,
+        "v": null,
+        "d": false,
+        "p": [[5, 5], [5, 5]],
+        "s": [10, 1],
+        "f": ["Courier", 9],
+        "tg": null
+    },
+    "button_calendar": {
+        "k": null,
+        "v": null,
+        "d": false,
+        "p": [[5, 5], [5, 5]],
+        "s": [10, 1],
+        "f": ["Courier", 9],
+        "tg": null
+    },
+    "button_color": {
+        "k": null,
+        "v": null,
+        "d": false,
+        "p": [[5, 5], [5, 5]],
+        "s": [10, 1],
+        "f": ["Courier", 9],
+        "tg": null
+    },
+    "progress_bar": {
+        "k": null,
+        "v": 100,
+        "d": false,
+        "p": [[5, 5], [5, 5]],
+        "s": [10, 1],
+        "f": ["Courier", 9],
+        "xx": null,
+        "xy": null
+    }
+}
