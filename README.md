@@ -183,8 +183,7 @@ python test.py
 
 ![Image](https://github.com/Seblefdev/archgui-demo/blob/main/demo_img/test.png?raw=true)
 
-
----
+<br/>
 
 ## 🛠️ Nuitka :
 Compilation en onefile sous Nuitka fonctionnelle.
