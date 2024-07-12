@@ -1,12 +1,10 @@
-import archgui
-import concurrent.futures
-import time
+from ag_loader import archgui
 
 # ###################################################################
 # | Initialisation du module :                                      |
 # ###################################################################
 
-archgui.init()
+ag = archgui()
 
 # ###################################################################
 # | Vous pouvez donner à vos events l’accès aux modules souhaitez   |
@@ -18,7 +16,7 @@ modules = {
     # "another_module": another-module,
 }
 
-archgui.define_modules(modules)
+ag.define_modules(modules)
 
 # ###################################################################
 # | Affichage d'une fenêtre sur la base du model "demo_d" :         |
@@ -38,7 +36,7 @@ archgui.define_modules(modules)
 # |    .update_graph()                                              |
 # ###################################################################
 
-demo_d_uniqid = archgui.open(
+demo_d_uniqid = ag.open(
     model="demo_d",
     wid="0",
     title="Archgui - Demo D")
@@ -51,7 +49,7 @@ demo_d_uniqid = archgui.open(
 # | à la fermeture de la dernière fenêtre.                          |
 # ###################################################################
 
-archgui.define_main(demo_d_uniqid)
+ag.define_main(demo_d_uniqid)
 
 # ###################################################################
 # | Update de la fenêtre dont l’uniqid est demo_d_uniqid :          |
@@ -70,7 +68,7 @@ archgui.define_main(demo_d_uniqid)
 # | Lancement de l'écoute des events :                               |
 # ###################################################################
 
-archgui.run()
+ag.run()
 
 # ###################################################################
 # | Aucune commande ne peut être lancée après .run()                |

@@ -1,4 +1,5 @@
-import archgui
+from ag_loader import archgui
+
 import concurrent.futures
 import time
 
@@ -6,7 +7,7 @@ import time
 # | Initialisation du module :                                      |
 # ###################################################################
 
-archgui.init()
+ag = archgui()
 
 # ###################################################################
 # | Vous pouvez donner à vos events l’accès aux modules souhaitez   |
@@ -14,11 +15,11 @@ archgui.init()
 # ###################################################################
 
 modules = {
-    "archgui": archgui,
+    "archgui": ag,
     # "another_module": another-module,
 }
 
-archgui.define_modules(modules)
+ag.define_modules(modules)
 
 # ###################################################################
 # | Affichage d'une fenêtre sur la base du model "demo_a" :         |
@@ -38,7 +39,7 @@ archgui.define_modules(modules)
 # |    .update_graph()                                              |
 # ###################################################################
 
-demo_a_uniqid = archgui.open(
+demo_a_uniqid = ag.open(
     model="demo_a",
     wid="0",
     title="Archgui - Demo A")
@@ -51,7 +52,7 @@ demo_a_uniqid = archgui.open(
 # | à la fermeture de la dernière fenêtre.                          |
 # ###################################################################
 
-archgui.define_main(demo_a_uniqid)
+ag.define_main(demo_a_uniqid)
 
 # ###################################################################
 # | Update de la fenêtre dont l’uniqid est demo_a_uniqid :          |
@@ -70,18 +71,18 @@ archgui.define_main(demo_a_uniqid)
 def demo_a_update():
 
     time.sleep(0.5)
-    archgui.update(uniqid=demo_a_uniqid,
-                   items=[
-                       {
-                           "key": "in_line_1",
-                           "mode": "clear"
-                       },
-                       {
-                           "key": "in_line_2",
-                           "mode": "replace",
-                           "value": "value replaced"
-                       },
-                   ])
+    ag.update(uniqid=demo_a_uniqid,
+              items=[
+                  {
+                      "key": "in_line_1",
+                      "mode": "clear"
+                  },
+                  {
+                      "key": "in_line_2",
+                      "mode": "replace",
+                      "value": "value replaced"
+                  },
+              ])
 
 
 pool = concurrent.futures.ThreadPoolExecutor(max_workers=2)
@@ -91,7 +92,7 @@ pool.submit(demo_a_update)
 # | Lancement de l'écoute des events :                               |
 # ###################################################################
 
-archgui.run()
+ag.run()
 
 # ###################################################################
 # | Aucune commande ne peut être lancée après .run()                |

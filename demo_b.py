@@ -1,4 +1,4 @@
-import archgui
+from ag_loader import archgui
 import numpy
 import concurrent.futures
 import time
@@ -7,7 +7,7 @@ import time
 # | Initialisation du module :                                      |
 # ###################################################################
 
-archgui.init()
+ag = archgui()
 
 # ###################################################################
 # | Vous pouvez donner à vos events l’accès aux modules souhaitez   |
@@ -19,7 +19,7 @@ modules = {
     # "another_module": another-module,
 }
 
-archgui.define_modules(modules)
+ag.define_modules(modules)
 
 # ###################################################################
 # | Affichage d'une fenêtre sur la base du model "demo_b" :         |
@@ -39,7 +39,7 @@ archgui.define_modules(modules)
 # |    .update_graph()                                              |
 # ###################################################################
 
-demo_b_uniqid = archgui.open(
+demo_b_uniqid = ag.open(
     model="demo_b",
     wid="0",
     title="Archgui - Demo B")
@@ -52,7 +52,7 @@ demo_b_uniqid = archgui.open(
 # | à la fermeture de la dernière fenêtre.                          |
 # ###################################################################
 
-archgui.define_main(demo_b_uniqid)
+ag.define_main(demo_b_uniqid)
 
 # ###################################################################
 # | Update de la fenêtre dont l’uniqid est demo_b_uniqid :          |
@@ -97,7 +97,7 @@ def demo_b_create_graph(uniqid, container, gid):
         }
     }
 
-    archgui.create_graph(
+    ag.create_graph(
         uniqid=uniqid,
         container=container,
         gid=gid,
@@ -134,7 +134,7 @@ def demo_b_update_graph(uniqid, gid, x1, x2):
             }
         }
 
-        archgui.update_graph(
+        ag.update_graph(
             uniqid=uniqid,
             gid=gid,
             matrix=matrix)
@@ -162,7 +162,7 @@ pool.submit(demo_b_update)
 # | Lancement de l'écoute des events :                               |
 # ###################################################################
 
-archgui.run()
+ag.run()
 
 # ###################################################################
 # | Aucune commande ne peut être lancée après .run()                |

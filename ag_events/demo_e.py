@@ -53,23 +53,19 @@ class Events:
             if "demo_e_1" in self.uniqids:
                 if self.windows.exist(self.uniqids["demo_e_1"]):
 
-                    lvl = self.windows.window(self.uniqids["demo_e_1"]).lvl
                     model = self.windows.window(self.uniqids["demo_e_1"]).model
                     wid = self.windows.window(self.uniqids["demo_e_1"]).wid
 
                     label_1 = "Fenêtre actuelle:"
-                    label_2 = "- Lvl: " + lvl
-                    label_3 = "- Model: " + model
-                    label_4 = "- Wid: " + wid
+                    label_2 = "- Model: " + model
+                    label_3 = "- Wid: " + wid
 
-                    lvl = self.window.lvl
                     model = self.window.model
                     wid = self.window.wid
 
-                    label_5 = "Fenêtre mère:"
-                    label_6 = "- Lvl: " + lvl
-                    label_7 = "- Model: " + model
-                    label_8 = "- Wid: " + wid
+                    label_4 = "Fenêtre mère:"
+                    label_5 = "- Model: " + model
+                    label_6 = "- Wid: " + wid
 
                     self.windows.update(
                         uniqid=self.uniqids["demo_e_1"],
@@ -79,9 +75,7 @@ class Events:
                             {"key": "label_3", "mode": "replace", "value": label_3},
                             {"key": "label_4", "mode": "replace", "value": label_4},
                             {"key": "label_5", "mode": "replace", "value": label_5},
-                            {"key": "label_6", "mode": "replace", "value": label_6},
-                            {"key": "label_7", "mode": "replace", "value": label_7},
-                            {"key": "label_8", "mode": "replace", "value": label_8}
+                            {"key": "label_6", "mode": "replace", "value": label_6}
                         ])
 
         # ---------------------------------------------------------------------
@@ -104,23 +98,19 @@ class Events:
             if "demo_e_2" in self.uniqids:
                 if self.windows.exist(self.uniqids["demo_e_2"]):
 
-                    lvl = self.windows.window(self.uniqids["demo_e_2"]).lvl
                     model = self.windows.window(self.uniqids["demo_e_2"]).model
                     wid = self.windows.window(self.uniqids["demo_e_2"]).wid
 
                     label_1 = "Fenêtre actuelle:"
-                    label_2 = "- Lvl: " + lvl
-                    label_3 = "- Model: " + model
-                    label_4 = "- Wid: " + wid
+                    label_2 = "- Model: " + model
+                    label_3 = "- Wid: " + wid
 
-                    lvl = self.window.lvl
                     model = self.window.model
                     wid = self.window.wid
 
-                    label_5 = "Fenêtre mère:"
-                    label_6 = "- Lvl: " + lvl
-                    label_7 = "- Model: " + model
-                    label_8 = "- Wid: " + wid
+                    label_4 = "Fenêtre mère:"
+                    label_5 = "- Model: " + model
+                    label_6 = "- Wid: " + wid
 
                     self.windows.update(
                         uniqid=self.uniqids["demo_e_2"],
@@ -130,9 +120,7 @@ class Events:
                             {"key": "label_3", "mode": "replace", "value": label_3},
                             {"key": "label_4", "mode": "replace", "value": label_4},
                             {"key": "label_5", "mode": "replace", "value": label_5},
-                            {"key": "label_6", "mode": "replace", "value": label_6},
-                            {"key": "label_7", "mode": "replace", "value": label_7},
-                            {"key": "label_8", "mode": "replace", "value": label_8}
+                            {"key": "label_6", "mode": "replace", "value": label_6}
                         ])
 
         # ---------------------------------------------------------------------
@@ -159,23 +147,19 @@ class Events:
                     wid="0",
                     title="Archgui - Demo E 3")
 
-                lvl = self.windows.window(demo_e_3_id).lvl
                 model = self.windows.window(demo_e_3_id).model
                 wid = self.windows.window(demo_e_3_id).wid
 
                 label_1 = "Fenêtre actuelle:"
-                label_2 = "- Lvl: " + lvl
-                label_3 = "- Model: " + model
-                label_4 = "- Wid: " + wid
+                label_2 = "- Model: " + model
+                label_3 = "- Wid: " + wid
 
-                lvl = self.window.lvl
                 model = self.window.model
                 wid = self.window.wid
 
-                label_5 = "Fenêtre mère:"
-                label_6 = "- Lvl: " + lvl
-                label_7 = "- Model: " + model
-                label_8 = "- Wid: " + wid
+                label_4 = "Fenêtre mère:"
+                label_5 = "- Model: " + model
+                label_6 = "- Wid: " + wid
 
                 self.windows.update(
                     uniqid=demo_e_3_id,
@@ -185,9 +169,7 @@ class Events:
                         {"key": "label_3", "mode": "replace", "value": label_3},
                         {"key": "label_4", "mode": "replace", "value": label_4},
                         {"key": "label_5", "mode": "replace", "value": label_5},
-                        {"key": "label_6", "mode": "replace", "value": label_6},
-                        {"key": "label_7", "mode": "replace", "value": label_7},
-                        {"key": "label_8", "mode": "replace", "value": label_8}
+                        {"key": "label_6", "mode": "replace", "value": label_6}
                     ])
 
         # ---------------------------------------------------------------------
@@ -211,23 +193,19 @@ class Events:
                     wid="0",
                     title="Archgui - Demo E 4")
 
-                lvl = self.windows.window(demo_e_4_id).lvl
                 model = self.windows.window(demo_e_4_id).model
                 wid = self.windows.window(demo_e_4_id).wid
 
                 label_1 = "Fenêtre actuelle:"
-                label_2 = "- Lvl: " + lvl
-                label_3 = "- Model: " + model
-                label_4 = "- Wid: " + wid
+                label_2 = "- Model: " + model
+                label_3 = "- Wid: " + wid
 
-                lvl = self.window.lvl
                 model = self.window.model
                 wid = self.window.wid
 
-                label_5 = "Fenêtre mère:"
-                label_6 = "- Lvl: " + lvl
-                label_7 = "- Model: " + model
-                label_8 = "- Wid: " + wid
+                label_4 = "Fenêtre mère:"
+                label_5 = "- Model: " + model
+                label_6 = "- Wid: " + wid
 
                 self.windows.update(
                     uniqid=demo_e_4_id,
@@ -237,9 +215,7 @@ class Events:
                         {"key": "label_3", "mode": "replace", "value": label_3},
                         {"key": "label_4", "mode": "replace", "value": label_4},
                         {"key": "label_5", "mode": "replace", "value": label_5},
-                        {"key": "label_6", "mode": "replace", "value": label_6},
-                        {"key": "label_7", "mode": "replace", "value": label_7},
-                        {"key": "label_8", "mode": "replace", "value": label_8}
+                        {"key": "label_6", "mode": "replace", "value": label_6}
                     ])
 
         # ---------------------------------------------------------------------
@@ -261,23 +237,19 @@ class Events:
             if "demo_e_5" in self.uniqids:
                 if self.windows.exist(self.uniqids["demo_e_5"]):
 
-                    lvl = self.windows.window(self.uniqids["demo_e_5"]).lvl
                     model = self.windows.window(self.uniqids["demo_e_5"]).model
                     wid = self.windows.window(self.uniqids["demo_e_5"]).wid
 
                     label_1 = "Fenêtre actuelle:"
-                    label_2 = "- Lvl: " + lvl
-                    label_3 = "- Model: " + model
-                    label_4 = "- Wid: " + wid
+                    label_2 = "- Model: " + model
+                    label_3 = "- Wid: " + wid
 
-                    lvl = self.window.lvl
                     model = self.window.model
                     wid = self.window.wid
 
-                    label_5 = "Fenêtre mère:"
-                    label_6 = "- Lvl: " + lvl
-                    label_7 = "- Model: " + model
-                    label_8 = "- Wid: " + wid
+                    label_4 = "Fenêtre mère:"
+                    label_5 = "- Model: " + model
+                    label_6 = "- Wid: " + wid
 
                     self.windows.update(
                         uniqid=self.uniqids["demo_e_5"],
@@ -287,9 +259,7 @@ class Events:
                             {"key": "label_3", "mode": "replace", "value": label_3},
                             {"key": "label_4", "mode": "replace", "value": label_4},
                             {"key": "label_5", "mode": "replace", "value": label_5},
-                            {"key": "label_6", "mode": "replace", "value": label_6},
-                            {"key": "label_7", "mode": "replace", "value": label_7},
-                            {"key": "label_8", "mode": "replace", "value": label_8}
+                            {"key": "label_6", "mode": "replace", "value": label_6}
                         ])
 
         # ---------------------------------------------------------------------
@@ -311,14 +281,12 @@ class Events:
             if "demo_e_6" in self.uniqids:
                 if self.windows.exist(self.uniqids["demo_e_6"]):
 
-                    lvl = self.windows.window(self.uniqids["demo_e_6"]).lvl
                     model = self.windows.window(self.uniqids["demo_e_6"]).model
                     wid = self.windows.window(self.uniqids["demo_e_6"]).wid
 
                     label_1 = "Fenêtre actuelle:"
-                    label_2 = "- Lvl: " + lvl
-                    label_3 = "- Model: " + model
-                    label_4 = "- Wid: " + wid
+                    label_2 = "- Model: " + model
+                    label_3 = "- Wid: " + wid
 
                     self.windows.update(
                         uniqid=self.uniqids["demo_e_6"],
@@ -326,7 +294,6 @@ class Events:
                             {"key": "label_1", "mode": "replace", "value": label_1},
                             {"key": "label_2", "mode": "replace", "value": label_2},
                             {"key": "label_3", "mode": "replace", "value": label_3},
-                            {"key": "label_4", "mode": "replace", "value": label_4},
                         ])
 
         # ---------------------------------------------------------------------
@@ -340,7 +307,7 @@ class Events:
             demo_e_7 = self.windows.open(
                 model="demo_e_7",
                 wid="0",
-                title="Archgui - Demo E 6")
+                title="Archgui - Demo E 7")
 
             if demo_e_7:
                 self.uniqids["demo_e_7"] = demo_e_7
@@ -348,14 +315,12 @@ class Events:
             if "demo_e_7" in self.uniqids:
                 if self.windows.exist(self.uniqids["demo_e_7"]):
 
-                    lvl = self.windows.window(self.uniqids["demo_e_7"]).lvl
                     model = self.windows.window(self.uniqids["demo_e_7"]).model
                     wid = self.windows.window(self.uniqids["demo_e_7"]).wid
 
                     label_1 = "Fenêtre actuelle:"
-                    label_2 = "- Lvl: " + lvl
-                    label_3 = "- Model: " + model
-                    label_4 = "- Wid: " + wid
+                    label_2 = "- Model: " + model
+                    label_3 = "- Wid: " + wid
 
                     self.windows.update(
                         uniqid=self.uniqids["demo_e_7"],
@@ -363,7 +328,6 @@ class Events:
                             {"key": "label_1", "mode": "replace", "value": label_1},
                             {"key": "label_2", "mode": "replace", "value": label_2},
                             {"key": "label_3", "mode": "replace", "value": label_3},
-                            {"key": "label_4", "mode": "replace", "value": label_4},
                         ])
 
         # ---------------------------------------------------------------------
@@ -377,7 +341,7 @@ class Events:
             demo_e_8 = self.windows.open(
                 model="demo_e_8",
                 wid="0",
-                title="Archgui - Demo E 6")
+                title="Archgui - Demo E 8")
 
             if demo_e_8:
                 self.uniqids["demo_e_8"] = demo_e_8
@@ -385,14 +349,12 @@ class Events:
             if "demo_e_8" in self.uniqids:
                 if self.windows.exist(self.uniqids["demo_e_8"]):
 
-                    lvl = self.windows.window(self.uniqids["demo_e_8"]).lvl
                     model = self.windows.window(self.uniqids["demo_e_8"]).model
                     wid = self.windows.window(self.uniqids["demo_e_8"]).wid
 
                     label_1 = "Fenêtre actuelle:"
-                    label_2 = "- Lvl: " + lvl
-                    label_3 = "- Model: " + model
-                    label_4 = "- Wid: " + wid
+                    label_2 = "- Model: " + model
+                    label_3 = "- Wid: " + wid
 
                     self.windows.update(
                         uniqid=self.uniqids["demo_e_8"],
@@ -400,6 +362,4 @@ class Events:
                             {"key": "label_1", "mode": "replace", "value": label_1},
                             {"key": "label_2", "mode": "replace", "value": label_2},
                             {"key": "label_3", "mode": "replace", "value": label_3},
-                            {"key": "label_4", "mode": "replace", "value": label_4},
                         ])
-
