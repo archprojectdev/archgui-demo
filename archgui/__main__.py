@@ -63,7 +63,11 @@ if __name__ == "__main__":
     # ---------------------------------------------------------------------
 
     cmd = "regular"
-    args = None
+    args = {
+        "windows": None,
+        "events": None,
+        "config": None
+    }
 
     for arg in sys.argv:
 
@@ -91,12 +95,6 @@ if __name__ == "__main__":
             split_windows = arg.split("windows=")
             split_events = arg.split("events=")
             split_config = arg.split("config=")
-
-            args = {
-                "windows": None,
-                "events": None,
-                "config": None
-            }
 
             if len(split_windows) > 1:
                 args["windows"] = split_windows[1]
