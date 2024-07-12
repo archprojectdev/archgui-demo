@@ -11,10 +11,11 @@ Il ne sera plus nécessaire d’éditer à la main les fichiers `.json` qui est 
 le gain de temps devrait etre significatif entre une application développée depuis `FreeSimpleGUI` et 
 une développée avec la surcouche `Archgui`.
 
+<br/>
 
 ⚠️ Le development de ce module est en cours. 
 Ce n’est pour le moment qu’une demonstration incomplète. 
-Si vous souhaitez tester ce module, il est préférable de le faire dans un environnement dédié. 
+Si vous souhaitez tester ce module, il est préférable de le faire dans un environnement dédié.
 
 <br/>
 
@@ -94,7 +95,58 @@ Il est nécessaire définir un dossier respectif pour les Windows et Events.
 
 <br/>
 
-## 🛠️ Premier lancement de test :
+## 🛠️ Commandes :
+
+#### Retourne la liste des items :
+
+```bash
+python -m archgui --list-items
+```
+```bash
+    Liste des items:
+
+      - column
+      - tab_group
+      - tab
+      - frame
+      - canvas
+      - label
+      - progress_bar
+      - in_line           ->   trigger
+      - in_lines          ->   trigger
+      - in_radio          ->   trigger
+      - in_checkbox       ->   trigger
+      - in_combo          ->   trigger
+      - button            ->   trigger
+      - button_file       ->   trigger
+      - button_files      ->   trigger
+      - button_save       ->   trigger
+      - button_folder     ->   trigger
+      - button_calendar   ->   trigger
+      - button_color      ->   trigger
+```
+#### Retourne les paramètres de l'item :
+```bash
+python -m archgui --item=tab_group
+```
+```bash
+    Items: tab_group
+
+      - k        ->   key                      ->   'str'
+      - p        ->   pad                      ->   (('int', 'int'), ('int', 'int'))
+      - s        ->   size                     ->   ('int', 'int')
+      - f        ->   font                     ->   ('str', 'int')
+      - tl       ->   tab_location             ->   'top'         'topleft'     'topright'    
+                                                    'left'        'lefttop'     'leftbottom'  
+                                                    'right'       'righttop'    'rightbottom' 
+                                                    'bottom'      'bottomleft'  'bottomright' 
+      - xx       ->   expand_x                 ->   'bool'
+      - xy       ->   expand_y                 ->   'bool'
+```
+
+<br/>
+
+## 🛠️ Test minimal :
 
 #### Dossier initial:
 ```
