@@ -1,8 +1,8 @@
+import shutil
 from rich import print
 
 
 def print_in(lbl: str, length: int, pos: str):
-
     label_length = len(lbl)
 
     if length - label_length > 0:
@@ -152,6 +152,7 @@ if __name__ == "__main__":
             except:
                 printer.error("__main__", "MAIN_CE_MODEL_EVENT")
 
+
         # -----------------------------------------------------------------
 
         if args["windows"] is None:
@@ -180,7 +181,10 @@ if __name__ == "__main__":
 
         if args["config"] is not None:
             if args["config"].endswith(".json"):
-                config_user = json.load(open(args["config"]))
+                if os.path.isfile(args["config"]):
+                    config_user = json.load(open(args["config"]))
+                else:
+                    shutil.copy("archgui/config/default.json", args["config"])
             else:
                 printer.error("__main__", "MAIN_FILE_CONFIG_JSON", tb=False)
                 sys.exit(0)
@@ -219,7 +223,8 @@ if __name__ == "__main__":
                 name = window.replace(".json", "")
                 if name + ".py" not in events:
                     create_events(name)
-                inner += "from " + args["events"].replace("/", "_") + "." + name + " import Events as " + name + "_events\n"
+                inner += "from " + args["events"].replace("/",
+                                                          "_") + "." + name + " import Events as " + name + "_events\n"
 
         # -----------------------------------------------------------------
 
@@ -352,5 +357,3 @@ if __name__ == "__main__":
                 print(label)
 
             print()
-
-
